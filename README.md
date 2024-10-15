@@ -8,7 +8,7 @@ apt install dnsmasq hostapd network-manager
 systemctl disable dnsmasq
 ```
 
-edit neplan
+edit netplan
 
 ```
 vim /etc/netplan/10-dhcp-all-interfaces.yaml
